@@ -29,9 +29,9 @@ def get_bounds_and_preprocessing(
 
 # https://github.com/keras-team/keras-applications/tree/master/keras_applications
 Models: Dict[str, Tuple[Callable, Mode]] = {
-    "densenet121": (app.densenet.DenseNet121, "torch"),
-    "densenet169": (app.densenet.DenseNet169, "torch"),
-    "densenet201": (app.densenet.DenseNet201, "torch"),
+    "DenseNet121": (app.densenet.DenseNet121, "torch"),
+    "DenseNet169": (app.densenet.DenseNet169, "torch"),
+    "DenseNet201": (app.densenet.DenseNet201, "torch"),
     # "EfficientNetB0": (app.efficientnet.EfficientNetB0, "torch"),
     # "EfficientNetB1": (app.efficientnet.EfficientNetB1, "torch"),
     # "EfficientNetB2": (app.efficientnet.EfficientNetB2, "torch"),
