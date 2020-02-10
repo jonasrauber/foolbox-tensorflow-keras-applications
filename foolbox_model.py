@@ -43,7 +43,7 @@ Models: Dict[str, Tuple[Callable, Mode]] = {
     "InceptionResNetV2": (app.inception_resnet_v2.InceptionResNetV2, "tf"),
     "InceptionV3": (app.inception_v3.InceptionV3, "tf"),
     "MobileNet": (app.mobilenet.MobileNet, "tf"),
-    "MobileNetV2": (app.mobilenet.MobileNetV2, "tf"),
+    "MobileNetV2": (app.mobilenet_v2.MobileNetV2, "tf"),
     "NASNetLarge": (app.nasnet.NASNetLarge, "tf"),
     "NASNetMobile": (app.nasnet.NASNetMobile, "tf"),
     "ResNet50": (app.resnet.ResNet50, "caffe"),
