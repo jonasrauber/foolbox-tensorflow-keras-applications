@@ -11,7 +11,7 @@ Example
 
    import foolbox as fbn
 
-    url = "https://github.com/jonasrauber/foolbox-tensorflow-keras-applications"
+   url = "https://github.com/jonasrauber/foolbox-tensorflow-keras-applications"
    fmodel = fbn.zoo.get_model(url, name="MobileNetV2")
 
    images, labels = foolbox.utils.samples(fmodel, dataset='imagenet', batchsize=16)
