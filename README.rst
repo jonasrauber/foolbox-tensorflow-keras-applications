@@ -20,3 +20,26 @@ Example
 
    # you can now attack fmodel using Foolbox attacks
    # ...
+
+
+Supported Models
+----------------
+
+- DenseNet121
+- DenseNet169
+- DenseNet201
+- InceptionResNetV2
+- InceptionV3
+- MobileNet
+- MobileNetV2
+- NASNetLarge
+- NASNetMobile
+- ResNet50
+- ResNet101
+- ResNet152
+- ResNet50V2
+- ResNet101V2
+- ResNet152V2
+- VGG16
+- VGG19
+- Xception
