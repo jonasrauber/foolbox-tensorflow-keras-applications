@@ -1,8 +1,8 @@
-=============================================================
-TensorFlow Keras Applications (pretrained models) for Foolbox
-=============================================================
+=================================================
+TensorFlow pretrained ImageNet models for Foolbox
+=================================================
 
-This repository provides `Keras Applications <https://keras.io/applications/>`_ (pretrained ImageNet models) in a `Foolbox Native <https://github.com/bethgelab/foolbox>`_ compatible format.
+This repository provides the `Keras Applications <https://keras.io/applications/>`_ (pretrained ImageNet models) in a `Foolbox Native <https://github.com/bethgelab/foolbox>`_ compatible format.
 
 Example
 -------
