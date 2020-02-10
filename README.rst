@@ -4,6 +4,8 @@ TensorFlow pretrained ImageNet models for Foolbox
 
 This repository provides the `Keras Applications <https://keras.io/applications/>`_ (pretrained ImageNet models) in a `Foolbox Native <https://github.com/bethgelab/foolbox>`_ compatible format.
 
+This code requires Foolbox 3.0 or newer.
+
 Example
 -------
 
